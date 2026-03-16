@@ -1,33 +1,4 @@
-/*import UploadResume from "./components/UploadResume";
-import MatchResume from "./components/MatchResume";
-import History from "./components/History";
 
-function App(){
-
- return(
-
-  <div style={{padding:"20px"}}>
-
-   <h1>AI Resume Analyzer</h1>
-
-   <UploadResume/>
-
-   <hr/>
-
-   <MatchResume/>
-
-   <hr/>
-
-   <History/>
-
-  </div>
-
- );
-
-}
-
-export default App;
-*/
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
